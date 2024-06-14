@@ -1,0 +1,23 @@
+.Progress {
+    display: flex;
+    justify-content: space-between;
+    height: 5px;
+    gap: 5px;
+}
+
+.Progress div.active {
+    background-color: var(--color-alert);
+}
+
+.Progress div.seen {
+    background-color: var(--color-base);
+}
+
+.Progress div {
+    width: 100%;
+    background: #eee;
+}
+
+.Progress div:last-child {
+    border: none;
+}
